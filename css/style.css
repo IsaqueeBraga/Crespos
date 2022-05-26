@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2? family= Montserrat:wght@100 & display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: normal normal medium 18px/22px Montserrat;
+}
+  
+.container{
+    max-width: 1920px;
+    min-height: 87px;
+    background-repeat: no-repeat;
+    opacity: 1;
+    background: #ffff;
+    
+
+}
+nav{
+    display: flex;
+    align-items: center;
+}
+
+nav .logo{
+    margin-top: 16px;
+    max-width: 111px;
+    min-height: 55px;
+    left: 167px;
+    background: transparent 0% 0% no-repeat padding-box;
+    border-right: 10vh;
+
+}
+nav ul{
+    list-style: none;
+    
+}
+
+nav ul li{
+    display: inline;
+}
+nav ul li a{
+    color:#9767A9 ;
+    text-decoration: none;
+    text-align:center;
+    top: 33px;
+    left: 999%;
+    width: 118px;
+    height: 22px;
+    padding: 10px;
+    letter-spacing: -0.54px;
+    margin-left: 2vw;
+    
+}
+
+input{
+    top: 24px;
+    left: 1382px;
+    width: 213px;
+    height: 40px;
+    border: 3px solid #9767A9;
+    border-radius: 50px;
+    opacity: 1;
+    margin-left: 8vh;
+    margin-right: 4vh;
+    text-indent: 10%;
+}
+
+input::placeholder{
+    background-image: url('../css/imgs/lupa/Layer_3.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-indent: 10%;
+}
+img{
+    margin-left: 2vh;
+}
+
