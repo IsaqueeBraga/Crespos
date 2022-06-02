@@ -1,6 +1,5 @@
-@import url('https://fonts.googleapis.com/css2? family= Montserrat:wght@300;400 & family=Permanete+Marker & family=Roboto & display=swap');
-@import url('https://fonts.googleapis.com/css2? family= Montserrat:wght@400;900 & family= Playfair+Display & display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Permanent+Marker&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;900&display=swap');
 *{
     margin:0;
     padding:0;
@@ -99,6 +98,9 @@ main{
     justify-content: space-around;
     align-items: center;
 }
+img{
+max-width: 100%;
+}
 
 .title-benny-box{
     width: 40vw;
@@ -112,11 +114,460 @@ main{
     width: 30vw;
     color: white;
     font-family: Montserrat;
-    font-size: 2.5vw;
+    font-size: 30px;
     font-weight: 100;
 }
 
-.texto-roxo{
+
+.sete-passos{
+    background-color: #9767A9;
+    height:50vh;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5vh;
+    position: relative;
+    color: white;
+    width: 100%;
+    font-size: 1,5vw;
+    font-family: Montserrat;
+    z-index: -2;
+}
+
+.sete-passos-container-mobile{
+    font-size: 45px;
+    width:50vw;
+    font-family: 'Playfair Display';
+}
+
+
+.text-sete-passos-box{
+    color: white;
+    font-size: 1.5vw;
+    width:40vw;
+    font-family: Montserrat;
+
+}
+
+
+
+.container-espelho img{
+    width: 40vw;
+    position: absolute;
+    top: 130vh;
+    left: 100px;
+
+   
+}
+
+.espelho-texto-box{
+    width:30vw;
+    background-color: #9767A9;
+    padding:2%;
+    position: relative;
+    bottom: -35vh;
+    left: 14vw;
+    
+    
+
+}
+
+.espelho-texto-box h1{
+    color: white;
+    font-size: 1.5vw;
+    font-family: 'Playfair Display';
+    padding-bottom: 2vh;
+}
+
+
+.espelho-texto-box p{
+    color: white;
+    font-size: 1vw;
+    font-family: Montserrat;
+}
+
+.maju-img-box{
+    width:40vw;
+    position: absolute;
+    left: 49vw;
+    top: 85vw;
+}
+
+.maju-img-box img{
+    width:40vw;
+
+}
+
+
+.maju-text-box-m{
+    width:30vw;
+    background-color: #9767A9;
+    padding:2%;
+    position: relative;
+    bottom: -15vw;
+    left: 55vw;
+}
+
+
+.maju-text-box-m h1{
+    color: white;
+    font-size: 1.5vw;
+    font-family: 'Playfair Display';
+    padding-bottom: 2vh;
+
+}
+
+.maju-text-box-m p{
+    color: white;
+    font-size: 1vw;
+    font-family: Montserrat;
+}
+
+
+.cacheado-img-box-m{
+    width:40vw;
+    position: absolute;
+    top: 118vw;
+    right:50vw;
+}
+
+
+.cacheado-text-box-m{
+    width:30vw;
+    background-color: #9767A9;
+    padding:2%;
+    position: relative;
+    bottom: -50vh;
+    left: 15vw;
+}
+
+
+
+
+.cacheado-text-box-m h1{
+    color: white;
+    font-size: 1.5vw;
+    font-family: 'Playfair Display';
+    padding-bottom: 2vh;
+
+
+}
+
+.cacheado-text-box-m p{
+    color: white;
+    font-size: 1vw;
+    font-family: Montserrat;
+
+}
+
+.rainha-img-box-m{
+    width: 40vw;
+    position: absolute;
+    top: 280vh;
+    left: 50vw;
+
+}
+
+.queen-text-box-m{
+    width:30vw;
+    background-color: #9767A9;
+    padding:2%;
+    position: relative;
+    bottom: -31vw;
+    left: 55vw;
+}
+
+
+.queen-text-box-m h1{
+    color: white;
+    font-size: 1.5vw;
+    font-family: 'Playfair Display';
+    padding-bottom: 2vh;
+}
+
+.queen-text-box-m p{
+    color: white;
+    font-size: 1vw;
+    font-family: Montserrat;
+
+}
+
+
+.adulto-crianca-img-box-m{
+    width:40vw;
+    position: absolute;
+    top:348vh;
+    right:49vw;
+}
+
+.adulto-crianca-text{
+    width:31vw;
+    background-color: #9767A9;
+    padding:2% ;
+    position: relative;
+    bottom: -76vh;
+    left: 15vw;
+}
+
+
+.adulto-crianca-text h1{
+    color: white;
+    font-size: 1.5vw;
+    font-family: 'Playfair Display';
+    padding-bottom: 2vh;
+}
+
+
+.adulto-crianca-text p{
+    color: white;
+    font-size: 1vw;
+    font-family: Montserrat;
+}
+
+
+
+.lavando-crespo-img-box-m {
+width:40vw;
+position: absolute;
+top:375vh;
+left:51vw;
+}
+
+.lavando-crespo-text-box-m{
+    width:30vw;
+    background-color: #9767A9;
+    padding:2% ;
+    position: relative;
+    bottom: -80vh;
+    left: 55vw;
+}
+
+.lavando-crespo-text-box-m h1{
+    color: white;
+    font-size: 1.5vw;
+    font-family: 'Playfair Display';
+    padding-bottom: 2vh;
+}
+
+.lavando-crespo-text-box-m p{
+    color: white;
+    font-size: 1vw;
+    font-family: Montserrat;
+}
+
+
+
+
+.cabelos-brancos-img-box-m{
+width:40vw;
+position: absolute;
+top:443vh;
+right:48vw;
+}
+
+
+.cabelos-brancos-text-box-m {
+    width:30vw;
+    background-color: #9767A9;
+    padding:2% ;
+    position: relative;
+    bottom: -102vh;
+    left: 15vw;
+}
+
+
+.cabelos-brancos-text-box-m h1{
+    color: white;
+    font-size: 1.5vw;
+    font-family: 'Playfair Display';
+    padding-bottom: 2vh;
+}
+
+
+.cabelos-brancos-text-box-m p{
+    color: white;
+    font-size: 1vw;
+    font-family: Montserrat;
+}
+
+.caminho-img-box-m{
+    width:40vw;
+    position: absolute;
+    top:480vh;
+    left:55vw;
+}
+
+footer{
+    height: 100vh;
+}
+
+
+
+.grid-container-pt1-m{
+  width: 202px;
+  position: absolute;
+  top:525vh;
+  right: 72vw;
+}
+
+.column-one{
+    width: 15vw;
+    margin-right: 0.5vw;
+    display:flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+
+.beyonce-m{
+    width: 10vw;
+    position: absolute;
+    left: 16vw;
+    top: 0vh;
+    padding-bottom: 0.5vh;
+}
+
+.black-panther-m{
+    width: 10vw;
+    position: absolute;
+    left: 16vw;
+    top: 24vh;
+}
+
+
+.gloria-maria-m{
+        padding-top: 0.5vh;
+        width: 15vw;
+        position: absolute;
+}
+
+
+.thais-araujo-m{
+    width: 10vw;
+    position: absolute;
+    left: 16vw;
+    top: 48vh;
+    padding-top: 0.5vh;
+}
+
+.column-three{
+    width: 10vw;
+    margin-right: 0.5vw;
+    display:flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+
+.robo-negro-m{
+    width: 130px;
+    position: absolute;
+    top:525vh;
+    right: 51vw;
+}
+
+
+.snoop-dog-m{
+    width: 10vw;
+    position: absolute;
+    top:573vh;
+    right: 51vw;
+    padding-top: 0.5vh;
+}
+
+
+.benny-old-m{
+    width: 200px;
+    position: absolute;
+    top:525vh;
+    right: 35vw;
+}
+
+.grace-jones-m{
+    width: 10vw;
+    position: absolute;
+    top: 525vh;
+    right: 24vw;
+}
+
+
+.boa-pinta-m{
+    width: 130px;
+    position: absolute;
+    top: 546vh;
+    right:24vw;
+}
+
+.rodape{
+    height:20vh;
+    width: 100%;
+    margin-top: 200vh;
+    background-color: #9767A9;
+    font-family: Montserrat;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.copyright{
+    width:50vw;
+    font-size: 0.8vw;
+}
+.botoes-navegacao{
+    width:35vw;
+    font-size: 1vw;
+    display: flex; 
+    justify-content: space-around;
+    align-items: center;
+}
+.botoes-navegacao :hover{
+    background-color: #b58cc4;
+    cursor: pointer;
+}
+.left-box{
+    height: 10vh;
+    width:10vw;
+    display: flex;
+    align-items: center;
+}
+.left-box figure{
+    width: 4vw;
+}
+figure img{
+    width:100%;
+}
+.top-box{
+    height: 10vh;
+    width:10vw;
+    display: flex;
+    align-items: center;
+}
+.top-box figure{
+    width: 4vw;
+}
+figure img{
+    width:100%;
+}
+.top-box a{
+    color:white;
+    text-decoration:none;
+}
+.right-box{
+    height: 10vh;
+    width:10vw;
+    display: flex;
+    align-items: center;
+}
+.right-box figure{
+    width: 4vw;
+}
+figure img{
+    width:100%;
+}
+footer-mobile{
     display: none;
 }
+
 
