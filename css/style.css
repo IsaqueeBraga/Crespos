@@ -210,7 +210,7 @@ max-width: 100%;
     justify-content: center;
     flex-direction:column;
     position: relative;
-    bottom: -15vw;
+    bottom: -12vw;
     left: 55vw;
 }
 
@@ -242,8 +242,11 @@ max-width: 100%;
     width:30vw;
     background-color: #9767A9;
     padding:2%;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
     position: relative;
-    bottom: -50vh;
+    bottom: -44vh;
     left: 15vw;
 }
 
@@ -279,7 +282,10 @@ max-width: 100%;
     background-color: #9767A9;
     padding:2%;
     position: relative;
-    bottom: -31vw;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+    bottom: -40vw;
     left: 55vw;
 }
 
@@ -310,8 +316,11 @@ max-width: 100%;
     width:31vw;
     background-color: #9767A9;
     padding:2% ;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
     position: relative;
-    bottom: -76vh;
+    bottom: -98vh;
     left: 15vw;
 }
 
@@ -343,8 +352,11 @@ left:51vw;
     width:30vw;
     background-color: #9767A9;
     padding:2% ;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
     position: relative;
-    bottom: -80vh;
+    bottom: -100vh;
     left: 55vw;
 }
 
@@ -367,7 +379,7 @@ left:51vw;
 .cabelos-brancos-img-box-m{
 width:40vw;
 position: absolute;
-top:443vh;
+top:440vh;
 right:48vw;
 }
 
@@ -376,8 +388,11 @@ right:48vw;
     width:30vw;
     background-color: #9767A9;
     padding:2% ;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
     position: relative;
-    bottom: -102vh;
+    bottom: -125vh;
     left: 15vw;
 }
 
