@@ -155,7 +155,7 @@ max-width: 100%;
     position: absolute;
     top: 130vh;
     left: 100px;
-
+ 
    
 }
 
@@ -163,6 +163,10 @@ max-width: 100%;
     width:30vw;
     background-color: #9767A9;
     padding:2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
     position: relative;
     bottom: -35vh;
     left: 14vw;
@@ -202,6 +206,9 @@ max-width: 100%;
     width:30vw;
     background-color: #9767A9;
     padding:2%;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
     position: relative;
     bottom: -15vw;
     left: 55vw;
