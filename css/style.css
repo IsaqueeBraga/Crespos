@@ -246,7 +246,7 @@ max-width: 100%;
     justify-content: center;
     flex-direction:column;
     position: relative;
-    bottom: -44vh;
+    bottom: -49vh;
     left: 15vw;
 }
 
@@ -285,7 +285,7 @@ max-width: 100%;
     align-items: center;
     justify-content: center;
     flex-direction:column;
-    bottom: -40vw;
+    bottom: -30vw;
     left: 55vw;
 }
 
@@ -356,7 +356,7 @@ left:51vw;
     justify-content: center;
     flex-direction:column;
     position: relative;
-    bottom: -100vh;
+    bottom: -90vh;
     left: 55vw;
 }
 
@@ -379,7 +379,7 @@ left:51vw;
 .cabelos-brancos-img-box-m{
 width:40vw;
 position: absolute;
-top:440vh;
+top:443vh;
 right:48vw;
 }
 
@@ -392,7 +392,7 @@ right:48vw;
     justify-content: center;
     flex-direction:column;
     position: relative;
-    bottom: -125vh;
+    bottom: -120vh;
     left: 15vw;
 }
 
@@ -419,7 +419,7 @@ right:48vw;
 }
 
 footer{
-    height: 100vh;
+    height: 200vh;
 }
 
 
@@ -427,7 +427,7 @@ footer{
 .grid-container-pt1-m{
   width: 202px;
   position: absolute;
-  top:525vh;
+  top:539vh;
   right: 72vw;
 }
 
@@ -483,7 +483,7 @@ footer{
 .robo-negro-m{
     width: 130px;
     position: absolute;
-    top:525vh;
+    top:539vh;
     right: 51vw;
 }
 
@@ -491,7 +491,7 @@ footer{
 .snoop-dog-m{
     width: 10vw;
     position: absolute;
-    top:573vh;
+    top:587vh;
     right: 51vw;
     padding-top: 0.5vh;
 }
@@ -500,14 +500,14 @@ footer{
 .benny-old-m{
     width: 200px;
     position: absolute;
-    top:525vh;
+    top:539vh;
     right: 35vw;
 }
 
 .grace-jones-m{
     width: 10vw;
     position: absolute;
-    top: 525vh;
+    top: 539vh;
     right: 24vw;
 }
 
@@ -515,7 +515,7 @@ footer{
 .boa-pinta-m{
     width: 130px;
     position: absolute;
-    top: 546vh;
+    top: 560vh;
     right:24vw;
 }
 
